@@ -7,13 +7,13 @@ int main() {
     char key;
     for (i = 0; i < n; i++)
     {
-        printf("Enter Namber [%d]:", i + 1);    scanf("%d", &nam[i]);
+        printf("Enter Namber [%d] : ", i + 1);    scanf("%d", &nam[i]);
     }
     do {
         printf("\n******Manu*******\n");
         printf("\n1.Max to Min");
         printf("\n2.Min to Max\n");
-        printf("Enter 1 or 2 :");
+        printf("Enter 1 or 2 : ");
         key = getche();
 
     } while (!(key == '1' || key == '2'));
